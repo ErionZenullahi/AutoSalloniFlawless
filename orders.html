@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders | AutoSalloni Flawless</title>
+
+     <!-- Tab Icon -->
+     <link rel="icon" type="image/x-icon" href="/img/logo.png" width="">
+     <!-- Tab Icon -->
+
+
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/Css/styles.css">  
+    <link rel="stylesheet" href="/Css/orders.css">
+    <!-- Link with JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <script src="/Javascript/functions.js"></script>
+    <!-- Link with JS-->
+    
+
+</head>
+<body id="AutoSalloni-Flawless">
+        <script>
+            createNavbar();
+        </script>
+
+        <div class="container">
+            <h1 class="h1 ez-title">Orders</h1>
+            <div class="row mt-5 bar d-flex justify-content-between">
+                <h4 class="col col-lg-6 col-sm-12 ">List of Orders</h4>
+                    
+
+                <select name="" id="selectOption" class="col col-lg-6 col-sm-12 form-select form-select-sm ez-order-select" aria-label="Small select example" onchange="filterCards()">
+                    <option value="0" selected="selected">All Orders</option>
+                    <option value="arrived" id="arrived">Arrived</option>
+                    <option value="confirmed" id="confirmed">Confirmed</option>
+                    <option value="cancelled" id="cancelled">Cancelled</option>
+                    <option value="ontheway">One the Way</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="container my-5">
+            <div class="card order-card mb-3"  data-options="arrived" >
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="/img/cars/bmwm5.jpg" class="img-fluid rounded-start order-img" alt="Bmw M5">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title h3">Bmw M5 Competition</h5>
+                      <p class="card-text">Year Of Production : 2020<br>
+                                           Mileage : 165.000 km <br>
+                                           Top Speed : 332 km/h <br></p>
+                                           Price : 157,000$ 
+                      <p class="card-text"><small class="text-secondary">Order Status: <strong class="ez-order-status" id="ez-status">Arrived</strong></small></p>
+                      <button type="button" class="btn btn-danger cancel-btn" onclick="cancelButton(this)">Cancel</button>
+                      <button type="button" class="btn btn-danger " onclick="removeCard(this)">Remove</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card order-card mb-3"  data-options="confirmed" >
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="/img/cars/audia5.jpg" class="img-fluid rounded-start order-img" alt="Bmw M5">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title h3">Audi A5 Sportback </h5>
+                      <p class="card-text">Year Of Production : 2018<br>
+                                           Mileage : 100.000 km <br>
+                                           Top Speed : 287 km/h<br></p>
+                                           Price : 157,000$
+                      <p class="card-text"><small class="text-secondary">Order Status: <strong class="ez-order-status" id="ez-status">Confirmed</strong></small></p>
+                      <button type="button" class="btn btn-danger cancel-btn" onclick="cancelButton(this)">Cancel</button>
+                      <button type="button" class="btn btn-danger " onclick="removeCard(this)">Remove</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card order-card mb-3" data-options="ontheway" >
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="/img/cars/sclass.jpg" class="img-fluid rounded-start order-img" alt="Bmw M5">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title h3">Mercedes S Class 650 Maybach</h5>
+                      <p class="card-text">Year Of Production : 2021<br>
+                                           Mileage : 0 km <br>
+                                           Top Speed : 255 km/h<br></p>
+                                           Price : 157,000$
+                      <p class="card-text"><small class="text-secondary">Order Status: <strong class="ez-order-status" id="ez-status" >On the Way</strong></small></p>
+                      <button type="button" class="btn btn-danger cancel-btn" onclick="cancelButton(this)">Cancel</button>
+                      <button type="button" class="btn btn-danger " onclick="removeCard(this)">Remove</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card order-card mb-3" data-options="cancelled">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="/img/cars/cclass.jpg" class="img-fluid rounded-start order-img" alt="Bmw M5">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title h3">Mercedes C Class </h5>
+                      <p class="card-text">Year Of Production : 2018<br>
+                                           Mileage : 196.000 km <br>
+                                           Top Speed : 260 km/h<br></p>
+                                           Price : 157,000$
+                      <p class="card-text"><small class="text-secondary" >Order Status: <strong class="ez-order-status" id="ez-status" >Cancelled</strong></small></p>
+                      <button type="button" class="btn btn-danger cancel-btn" onclick="cancelButton(this)">Cancel</button>
+                      <button type="button" class="btn btn-danger " onclick="removeCard(this)">Remove</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+
+        <script>
+            createFooter();
+        </script>
+        
+
+
+</body>
+</html>

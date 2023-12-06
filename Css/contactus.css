@@ -1,0 +1,54 @@
+body{
+    margin: var(--margin);  
+    padding: var(--padding);
+    font-size: 1.2em;
+    font-family:'exo_2regular' !important;
+    scroll-behavior: smooth !important;
+    background-color: var(--background);
+}
+
+/* Body Part of contact us*/
+
+.ez-contact-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    color: white;
+    font-size: 4rem;
+}
+
+@media only screen and (max-width:576px) {
+    .ez-contact-title, .ez-contact-subtitle{
+        font-size: -20%;
+    }
+}
+
+
+.ez-contact-form{
+    color: white;
+}
+
+.ez-submit{
+    background-color:rgb(219, 107, 66);
+    border: 0;
+}
+
+.ez-submit:hover{
+    background-color: orangered;
+    color: black;
+}
+
+.ez-contact-subtitle{
+    display: flex;
+    justify-content: center;
+    color: gray;
+    font-size: 1.5rem;
+}
+
+.ez-form-con{
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    margin-left: 7vw;
+}

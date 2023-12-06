@@ -1,0 +1,112 @@
+body{
+    background-color: var(--background);
+    margin: var(--margin);  
+    padding: var(--padding);
+    font-size: 1.2em;
+    font-family:'exo_2regular' !important;
+    scroll-behavior: smooth !important;
+}
+
+
+
+/* MAIN PART */
+
+
+.ez-aboutus-img {
+    opacity: 88%;
+    width: 100%;    
+}
+
+.ez-titleabout{
+    color: rgb(219, 107, 66) !important;
+    margin-bottom: 1rem;
+}
+
+.ez-aboutlogos{
+    margin-top: 100px !important;
+}
+
+
+.aboutdivider{
+    color: white !important;
+}
+
+
+/* PAGINATION DESIGN */
+.container { 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px; 
+} 
+  
+.pagination { 
+    justify-content: center;
+    text-align: center; 
+    margin-top: 2rem; 
+} 
+  
+.pagination a { 
+    color: orangered; 
+    padding: 8px 16px; 
+    text-decoration: none; 
+    border: 1px solid orangered; 
+    margin: 0 5px; 
+    border-radius: 4px; 
+} 
+  
+.pagination a:hover { 
+    background-color: rgb(219, 107, 66); 
+    color: white; 
+} 
+
+.pagination .active:hover{
+    color: black !important;
+}
+  
+.pagination .active { 
+    background-color:rgb(219, 107, 66); 
+    color: white; 
+    border: 0;
+} 
+  
+.card-container { 
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+} 
+  
+.card { 
+    border: 1px solid #ddd; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 20px 0px rgba(0, 0, 0, 0.1); 
+    background-color: #fff; 
+    text-align: center; 
+} 
+  
+.card img { 
+    max-width: 100%; 
+    height: auto; 
+    margin-bottom: 10px; 
+    border-radius: 10px; 
+} 
+  
+h3 { 
+    margin-top: 10px; 
+    font-size: 18px; 
+    text-transform: capitalize; 
+} 
+  
+h1 { 
+    text-align: center; 
+    margin: 2rem; 
+} 
+  
+p { 
+    font-size: 14px; 
+} 
+  
+#page-numbers { 
+    margin-top: 20px; 
+    font-size: 16px; 
+}
