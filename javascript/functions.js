@@ -25,15 +25,13 @@ function createNavbar() {
                   
                   <!-- DROP DOWN MENU-->
                   <li class="nav-item dropdown px-2">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Cars
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Luxury</a></li>
+                      <li><a class="dropdown-item" href="luxurycars.html">Luxury</a></li>
                       <li><a class="dropdown-item" href="#">Economic</a></li>
                       <li><a class="dropdown-item" href="#">Sport</a></li>
-                      <div class="dropdown-divider"></div>
-                      <li><a class="dropdown-item" href="#">Other</a></li>
                     </ul>
                   </li> 
                   <!-- DROP DOWN MENU-->
