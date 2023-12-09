@@ -6,6 +6,7 @@ body{
     font-size: 1.2em;
     font-family:'exo_2regular' !important;
     scroll-behavior: smooth !important;
+    offset: hidden;
 }
 
 /* BODY OF INDEX.HTML*/
@@ -17,24 +18,29 @@ body{
     text-decoration: none;
 }
 
-.ez-details{
-    text-decoration: none;
-    color: white;
-}
-
-.ez-details:hover{
-    color: black;
-    text-decoration: underline;
-}
-
 .ez-h5{
     font-style: italic;
     font-size:  2rem;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 567px) {
     .ez-details {
       font-size: 10px;
+    }
+
+    .ez-preview{
+        text-align: center;
+        max-width: 80%;
+        margin-left: 3vw;
+    }
+
+    .ez-car{
+        width: 80%;
+    }
+
+    .ez-caption h5{
+        font-size: 0.9em !important;
+        margin: -8vh 0 0 0 ;
     }
   }
 

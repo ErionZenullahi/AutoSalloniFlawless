@@ -89,7 +89,7 @@ function createNavbar() {
                         <ul class="list-group ez-ql-items">
                           <li class="list-item"><a href="aboutus.html">About Us</a></li>
                           <li class="list-item"><a href="contactus.html">Contact Us</a></li>
-                          <li class="list-item"><a href="">Cars</a></li><br>
+                          <li class="list-item"><a href="signup.html">Create An Account</a></li><br>
                         </ul>
                       </div>
                     </div>

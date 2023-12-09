@@ -5,34 +5,29 @@ body{
     font-family:'exo_2regular' !important;
     scroll-behavior: smooth !important;
     background-color: rgb(29, 29, 29);
+    overflow-x: hidden;
 }
 
 
 
 /* BANNER PART */
-.ez-luxbanner-img {
+
+.ez-banner img{
+    opacity: 75%;
     width: 100%;
-    height: auto;
-}
-
-.banner {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
+    z-index: -1000;
+}
+.ez-heading{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    font-family: 'exo_2regular';
+    font-size: 1.5em;
+    color: black;
+    
 }
 
-.ez-text-part {
-    max-width: 400px;
-    margin: 0 auto;
-}
-
-.ez-lux-title {
-    font-size: 2rem;
-}
-
-.ez-order-select {
-    margin-top: 10px;
+.ez-lux-subtitle{
+    font-size: 0.7em;
 }
