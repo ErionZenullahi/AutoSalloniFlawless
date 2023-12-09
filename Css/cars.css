@@ -10,25 +10,29 @@ body{
 
 
 /* BANNER PART */
-.ez-luxbanner-img{
-    opacity: 75%;
+.ez-luxbanner-img {
+    width: 100%;
+    height: auto;
 }
 
-.ez-text-part{
-    color: white;
+.banner {
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-    z-index: 1;
-    font-size: 0.8vw;
-    margin-top: 15%;
-    margin-left: 15%;
+    color: white;
 }
 
-.ez-lux-title{
-    font-size: 2vw;
+.ez-text-part {
+    max-width: 400px;
+    margin: 0 auto;
 }
 
-.ez-order-select{
-    width: 50%;
-    align-items: center;
+.ez-lux-title {
+    font-size: 2rem;
+}
+
+.ez-order-select {
+    margin-top: 10px;
 }

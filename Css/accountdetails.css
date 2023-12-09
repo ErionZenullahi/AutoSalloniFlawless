@@ -1,5 +1,5 @@
    body{
-        background-color: var(--background);
+        background-color:rgb(29, 29, 29);
         margin: var(--margin);  
         padding: var(--padding);
         font-size: 1.2em !important;

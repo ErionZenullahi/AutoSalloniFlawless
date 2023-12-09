@@ -1,5 +1,5 @@
 body{
-    background-color: var(--background);
+    background-color:rgb(29, 29, 29);
     margin: var(--margin);  
     padding: var(--padding);
     font-size: 1.2em;
@@ -17,6 +17,10 @@ body{
     width: 100%;    
 }
 
+.ez-description{
+    font-size: 1.1em;
+}
+
 .ez-titleabout{
     color: rgb(219, 107, 66) !important;
     margin-bottom: 1rem;
@@ -27,7 +31,7 @@ body{
 }
 
 
-.aboutdivider{
+.ez-aboutdivider{
     color: white !important;
 }
 

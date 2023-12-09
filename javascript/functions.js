@@ -173,7 +173,7 @@ function createNavbar() {
         
           
 
-
+//Forgot password logic 
         function forgotPassword() {
           const oldpassword = document.getElementById('oldpassword').value;
           const newpassword = document.getElementById('newpassword').value;
@@ -196,11 +196,7 @@ function createNavbar() {
       }
       
 
-      /*TOGGLE PASSWORD*/
-
-
-        
-
+ // Password Toggler (Hide-Show)
         function passwordToggler(){
 
           var passwordInput = document.getElementById("password");
@@ -217,7 +213,7 @@ function createNavbar() {
         }
 
 
-
+// Filtering cards at orders
         function filterCards() {
           var selectedOption = document.getElementById("selectOption").value;
           var cards = document.querySelectorAll(".order-card");
@@ -225,8 +221,7 @@ function createNavbar() {
           cards.forEach(function (card) {
             var cardOptions = card.getAttribute("data-options").toLowerCase().split(" ");
             var displayCard = true;
-        
-
+            
             if (selectedOption !== "0") {
               displayCard = cardOptions.includes(selectedOption.toLowerCase());
             }
@@ -239,26 +234,25 @@ function createNavbar() {
           });
         }
 
-
+// Remove cards at orders
         function removeCard(button) {
           // Ask the user for confirmation
           var isConfirmed = window.confirm("Are you sure you want to cancel this order?");
       
           if (isConfirmed) {
 
-            var card = button.closest(".order-card");
-      
-
+            let card = button.closest(".order-card");
             card.remove();
           }
         }
 
-
+// Cancel order func...
         function cancelButton(button) {
           var card = button.closest('.card');
           var statusElement = card.querySelector('.ez-order-status');
 
           if (statusElement.textContent.trim().toLowerCase() === 'cancelled') {
+              button.setAttribute('disabled');
               alert('This order is already cancelled.');
               return;
           }

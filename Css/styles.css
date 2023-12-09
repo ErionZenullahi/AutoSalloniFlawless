@@ -1,4 +1,6 @@
 /*GENERAL*/
+
+/* SOME VARIABLES */
 :root{
     --color-primary-1:rgb(219, 107, 66);
     --margin:0;
@@ -95,6 +97,10 @@ abbr{
 
 .ez-Lista ul>li{
     list-style: none;
+}
+
+.ez-about-footer{
+    font-size: 1.2rem;
 }
 
 .ez-Lista a{
