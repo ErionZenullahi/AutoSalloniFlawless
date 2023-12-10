@@ -117,7 +117,6 @@ function createNavbar() {
          * LogIn  Function
          */
         function login() {
-          // Get input values
           var username = document.getElementById("username").value;
           var password = document.getElementById("password").value;
           var aUser = document.getElementById("alertuser");

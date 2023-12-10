@@ -9,7 +9,43 @@
 
 
 .ez-ad-form {
-    color:white;
+    color:white;   
+}
+
+.ez-firstrow,.ez-secondrow{
+    margin-left: 4rem;
+}
+
+@media only screen and (max-width:567px ){
+    .ez-firstrow , .ez-secondrow, .ez-thirdrow{
+        margin: 0 0 0 -2rem;
+        width: 70%;
+    }
+
+    .col{
+        margin-top: 3vh;
+    }
+
+    .ez-fbutton{
+        margin-left:-15%;  
+    }
+    .ez-sbutton{
+        width: 92% !important;
+    }
+
+    .ez-ad-subtitle{
+        font-size: .9em;
+        margin-right: 10% !important;
+    }
+
+    .ez-contact-problem{       
+        margin-right: 10% !important;
+    }
+
+}
+
+.ez-thirdrow{
+    margin-left: 10vw !important;
 }
 
 .ez-ad-heading{
@@ -36,10 +72,7 @@
 }
 
 .ez-contact-problem{
-    margin: 3rem 3rem;
-    display: flex;
-    justify-content: center;
-    margin-top: 3rem !important;
+    margin: 3rem 0 3rem 15%;
 }
 
 .ez-anchor{

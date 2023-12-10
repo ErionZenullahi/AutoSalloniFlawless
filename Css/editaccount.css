@@ -1,5 +1,5 @@
 body{
-    background-color: var(--background);
+    background-color:rgb(29, 29, 29);
     margin: var(--margin);  
     padding: var(--padding);
     font-size: 1.2em !important;
@@ -9,6 +9,10 @@ body{
 
 .ez-ad-form {
     color:white;
+}
+
+.ez-firstrow , .ez-secondrow{
+    margin-left: 7%;
 }
 
 .ez-ad-heading{
@@ -21,7 +25,8 @@ body{
 
 
 .ez-submit{
-    width: 100%;
+    width: 50%;
+    margin-left: 20%;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -32,6 +37,22 @@ body{
 .ez-submit:hover , .ez-edit:hover{
     background-color: orangered ;
     color: black ;
+}
+
+@media only screen and (max-width:567px){
+    .ez-firstrow , .ez-secondrow, .ez-thirdrow{
+        margin: 0 0 0 0;
+        width: 70%;
+    }
+
+    .col{
+        margin-top: 3vh;
+    }
+
+    .ez-submit{
+        width:80%;
+        margin-left: 20%;
+    }
 }
 
 
