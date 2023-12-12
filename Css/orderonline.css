@@ -11,3 +11,35 @@ body{
 
 
 /* BANNER PART */
+.ez-make-select{
+    width:25%;
+    display: inline;
+    float: right;
+}
+
+.card-body-banner{
+    background-color: rgb(77, 75, 75);
+    color: white !important;
+    height: 5vh;
+    padding: 0.8rem;
+}
+
+/*END BANNER PART*/
+
+/* Cars ordering part */
+.ez-carorder-cont{
+    margin-top: 20vh;
+}
+.card-body{
+    background-color: rgb(8, 8, 8);
+    color:white;
+
+}
+
+.ez-order-btn{
+
+}
+
+
+
+/* End Cars ordering part */

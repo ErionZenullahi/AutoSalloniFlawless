@@ -266,3 +266,12 @@ function createNavbar() {
           }
       }
 
+      // ORDER A CAR
+
+      function order(){
+       var orderBtn = document.getElementById('ez-order-btn');
+
+       if(orderBtn){
+        alert('Purchase has been made successfully! Thank you')
+       }
+      }

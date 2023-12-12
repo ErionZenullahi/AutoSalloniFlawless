@@ -31,9 +31,142 @@
     </script>
 
 
-    <!-- <script>
+        <div class="container p-0">
+            <div class="banner-card mt-5">
+                <img src="img/porscheback.jpg" alt="card-banner-img" class="card-img-top ez-banner-img">
+                <div class="card-body-banner ">
+                    <div class="card-title-banner d-inline px-3">Car Makes</div>
+                        <span class="px-2">
+                            <select name="" id="selectOption" class="form-select form-select-sm ez-make-select" aria-label="Small select example" onchange="filterCards()">
+                                <option value="0" selected="selected">All Car Makes</option>
+                                <option value="Porsche" id="porsche">Porsche</option>
+                                <option value="Rolls Royce" id="rollsroyce">Rolls Royce</option>
+                                <option value="Bugatti" id="bugatti">Bugatti</option>
+                                <option value="Llamborghini" id="llamborghini">Llamborghini</option>
+                                <option value="Bmw" id="bmw">BMW</option>
+                                <option value="Mercedes" id="mercedes">Mercedes</option>
+                            </select>
+                        </span> 
+                </div>
+            </div>
+        </div>
+
+            <hr class="ez-aboutdivider ">
+
+            <!-- Cars to be purchased -->
+        <div class="container p-0 ez-carorder-cont">
+
+            <h1 class="h1 text-light text-center p-5">Cars on Sale</h1>
+
+            <!-- First Card -->
+            <div class="card order-card m-4"  data-options="bmw" >
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="img/cars/bmwm5.jpg" class="img-fluid rounded order-img" alt="Bmw M5">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title h3">Bmw M5 Competition</h5>
+                      <p class="card-text">Year Of Production : 2020<br>
+                                           Mileage : 165,000 km <br>
+                                           Top Speed : 332 km/h <br></p><br>
+                                         Price : 157.000$<br><br>
+                      <button type="button" class="btn btn-outline-success ez-order-btn" id="ez-order-btn" onclick="order()">Order</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Second Card -->
+
+              <div class="card order-card m-4"  data-options="porsche" >
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="img/cars/porsche911.jpg" class="img-fluid rounded order-img" alt="Porsche 911 (Mansory)">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title h3">Porsche 911 Gt3rs (By Mansory)</h5>
+                      <p class="card-text">Year Of Production : 2022<br>
+                                           Mileage : 0 km <br>
+                                           Top Speed : 365 km/h <br></p><br>
+                                         Price : 420.000$<br><br>
+                      <button type="button" class="btn btn-outline-success ez-order-btn" id="ez-order-btn" onclick="order()">Order</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Third Card -->
+              <div class="card order-card m-4"  data-options="bugatti" >
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="img/cars/chironpng.png" class="img-fluid rounded order-img" alt="Bugatti Chiron Super Sport 300+">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title h3">Bugatti Chiron Super Sport 300+</h5>
+                      <p class="card-text">Year Of Production : 2021<br>
+                                           Mileage : 1,200 km <br>
+                                           Top Speed : 492 km/h <br></p><br>
+                                           Price : 7.200.000$<br><br>
+                      <button type="button" class="btn btn-outline-success ez-order-btn" id="ez-order-btn" onclick="order()">Order</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Fourth Card -->
+
+              <div class="card order-card m-4"  data-options="llamborghini" >
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="img/cars/revueltomain.png" class="img-fluid rounded order-img" alt="Llamborghini Revuelto">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title h3">Llamborghini Revuelto</h5>
+                      <p class="card-text">Year Of Production : 2023<br>
+                                           Mileage : 0 km <br>
+                                           Top Speed : 340 km/h <br></p><br>
+                                           Price : 520.000$<br><br>
+                      <button type="button" class="btn btn-outline-success ez-order-btn" id="ez-order-btn" onclick="order()">Order</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Fifth Card -->
+
+              <div class="card order-card m-4"  data-options="mercedes" >
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="img/cars/amgone.png" class="img-fluid rounded order-img" alt="Mercedes Gt (Amg One Edition)">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title h3">Mercedes Gt (Amg One Edition)</h5>
+                      <p class="card-text">Year Of Production : 2021<br>
+                                           Mileage : 0 km <br>
+                                           Top Speed : 370 km/h <br></p><br>
+                                           Price : 660.000$<br><br>
+                      <button type="button" class="btn btn-outline-success ez-order-btn" id="ez-order-btn" onclick="order()">Order</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+        </div>
+
+        
+
+
+
+    <script>
         createFooter();
-    </script> -->
+    </script>
 
 </body>
 </html>
