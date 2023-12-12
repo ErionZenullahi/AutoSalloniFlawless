@@ -26,6 +26,20 @@
         margin-top: 3vh;
     }
 
+    .container{
+        padding: 0 !important;
+        margin-right:0 !important ;
+    }
+
+    .ez-backHome{
+        padding-right: 0 !important;
+    }
+
+    .ez-thirdrow{
+        margin-right: 0 !important;
+        margin-left: 3vh !important;
+    }
+
     .ez-fbutton{
         margin-left:-15%;  
     }

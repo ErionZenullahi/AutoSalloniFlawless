@@ -6,7 +6,7 @@ body{
     font-size: 1.2em;
     font-family:'exo_2regular' !important;
     scroll-behavior: smooth !important;
-    offset: hidden;
+    overflow-x: hidden;
 }
 
 /* BODY OF INDEX.HTML*/
@@ -25,7 +25,7 @@ body{
 
 @media only screen and (max-width: 567px) {
     .ez-details {
-      font-size: 10px;
+      font-size: 3em;
     }
 
     .ez-preview{
@@ -36,11 +36,11 @@ body{
 
     .ez-car{
         width: 80%;
+        margin-left: 5vw;
     }
 
     .ez-caption h5{
-        font-size: 0.9em !important;
-        margin: -8vh 0 0 0 ;
+        display: none;
     }
   }
 
@@ -50,23 +50,6 @@ body{
     padding: 0;
 }
 
-
-.card-img-top{
-    height: 16em !important;
+.row{
+    margin-right: 0 !important;
 }
-
-.card-title{
-    font-family:'exo_2regular';
-    font-style: italic;
-    font-size: 23px;
-}
-
-.card-text{
-    font-family:'exo_2regular';
-}
-
-.btn{
-    font-family:'exo_2regular';
-    font-style: italic;
-}
-

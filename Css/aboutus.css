@@ -43,10 +43,20 @@ body{
 @media only screen and (max-width: 567px) {
     .ez-img-about img{
       width: 75% !important;
+      margin-left: 10vw !important;
+    }
+    .ez-img-about{
+        margin: 0 !important;
+    }
+
+    .ez-chiron-div{
+        padding: 0 !important;
+        margin: 0 !important;
     }
 
     .card-container .card{
-        margin-left: 2vw;
+        margin-left: 12vw;
+        padding: 0 !important;
     }
 
     .ez-description{
@@ -67,6 +77,28 @@ body{
     .ez-ddata{
         font-size: 1em;
         margin-left: 10vw;
+    }
+
+    .ez-partner-img{
+        margin-right: 0 !important;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .ez-partners{
+        font-size:2em !important;
+    }
+
+    .card-container{
+        margin: 0 !important;
+    }
+
+    .container{
+        padding: 0 !important;
+    }
+
+    .ez-about-frow{
+        margin-right: 0 !important;
     }
   }
 

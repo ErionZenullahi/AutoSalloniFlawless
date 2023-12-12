@@ -26,12 +26,11 @@ function createNavbar() {
                   <!-- DROP DOWN MENU-->
                   <li class="nav-item dropdown px-2">
                     <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Cars
+                      Shopping tools
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="luxurycars.html">Luxury</a></li>
-                      <li><a class="dropdown-item" href="#">Economic</a></li>
-                      <li><a class="dropdown-item" href="#">Sport</a></li>
+                      <li><a class="dropdown-item" href="orderonline.html">Order Online</a></li>
+                      <li><a class="dropdown-item" href="#">Visit Us to Order</a></li>
                     </ul>
                   </li> 
                   <!-- DROP DOWN MENU-->
@@ -266,7 +265,4 @@ function createNavbar() {
               alert('Order has been cancelled.');
           }
       }
-
-
-
 

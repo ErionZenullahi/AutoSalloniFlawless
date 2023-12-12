@@ -27,8 +27,17 @@ body {
         width: 30%;
     }
 
+    .container{
+        margin-right: 0 !important;
+        padding: 0 !important;
+    }
+    .ez-heading-row{
+        margin-right: 0 !important;
+    }
+
     .ez-order-title{
         margin:0 0 5vh 0;
+        padding: 0 !important;
         text-align: center;
     }
 
