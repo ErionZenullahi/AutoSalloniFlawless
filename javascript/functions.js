@@ -59,7 +59,7 @@ function createNavbar() {
           </nav>
           `;
 
-          // Append the header to the body
+          // Shton elementin header brenda Body
           document.body.appendChild(header);
         }
 
@@ -181,6 +181,7 @@ function createNavbar() {
           if (oldpassword === "admin") {
               if (newpassword === confirmpassword && newpassword !== "" && newpassword !== null) {
                   alert("New Password has been set");
+                  window.location.href = "login.html";
               } else if (newpassword === "" || newpassword === null) {
                   alertElement.innerHTML = "New Password is required!";
               } else {
@@ -235,10 +236,9 @@ function createNavbar() {
 // Remove cards at orders
         function removeCard(button) {
           // Ask the user for confirmation
-          var isConfirmed = window.confirm("Are you sure you want to cancel this order?");
+          var isConfirmed = window.confirm("Are you sure you want to REMOVE this order?");
       
           if (isConfirmed) {
-
             let card = button.closest(".order-card");
             card.remove();
           }
@@ -251,7 +251,6 @@ function createNavbar() {
 
           if (statusElement.textContent.trim().toLowerCase() === 'cancelled') {
               button.setAttribute('disabled');
-              alert('This order is already cancelled.');
               return;
           }
 
@@ -272,6 +271,6 @@ function createNavbar() {
        var orderBtn = document.getElementById('ez-order-btn');
 
        if(orderBtn){
-        alert('Purchase has been made successfully! Thank you')
+        alert('Purchase has been made successfully! Thank you');
        }
       }

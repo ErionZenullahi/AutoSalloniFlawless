@@ -1,7 +1,6 @@
 body {
     margin: var(--margin);  
     padding: var(--padding);
-    font-family: 'Arial', sans-serif;
     background-color: rgb(29, 29, 29);
     color: white;
     overflow-x: hidden;

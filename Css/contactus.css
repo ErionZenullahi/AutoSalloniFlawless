@@ -2,7 +2,6 @@ body{
     margin: var(--margin);  
     padding: var(--padding);
     font-size: 1.2em;
-    font-family:'exo_2regular' !important;
     scroll-behavior: smooth !important;
     background-color:rgb(29, 29, 29);
 }

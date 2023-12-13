@@ -3,7 +3,6 @@
         margin: var(--margin);  
         padding: var(--padding);
         font-size: 1.2em !important;
-        font-family:'exo_2regular' !important;
         scroll-behavior: smooth !important;
     } 
 
