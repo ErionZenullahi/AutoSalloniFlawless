@@ -41,6 +41,22 @@ body{
 
 }
 
+@media only screen and (max-width:567px){
+
+    .ez-card-title-banner{
+        margin-left: 30%;
+    }
+
+    .card-body-banner{
+        height: 9vh;
+    }
+
+    .ez-make-select{
+        margin-top: 2vh;
+        width: 100%;        
+    }
+}
+
 
 
 /* End Cars ordering part */
