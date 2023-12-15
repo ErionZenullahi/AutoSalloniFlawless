@@ -100,6 +100,7 @@ abbr{
 /* FOOTERI */
 
 .ez-Lista ul>li{
+    text-align: center;
     list-style: none;
 }
 
@@ -142,6 +143,32 @@ abbr{
     text-align: start;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
+
+@media only screen and (max-width: 567px){
+
+    .ez-footer-title{
+        text-align: center;
+        padding: 0;
+    }
+
+    .ez-footer-logo{
+        margin-left: 35%;
+    }
+
+    .ez-About{
+        padding: 0 !important;
+    }
+
+    .ez-about-footer{
+        text-align: center;
+    }
+
+    .ez-Lista{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+}
+
 
 /* END OF FOOTER DESIGN*/
 

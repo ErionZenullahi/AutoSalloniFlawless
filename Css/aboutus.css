@@ -30,6 +30,10 @@ body{
     margin-top: 100px !important;
 }
 
+.ez-ddata ,.ez-about-frow{
+    line-height: 1.9em;
+}
+
 
 .ez-aboutdivider{
     color: white !important;
@@ -40,6 +44,18 @@ body{
 }
 
 @media only screen and (max-width: 567px) {
+    .ez-ddata, .ez-dtext, .ez-dlist, .ez-story-row{
+        margin: 0 !important;
+        padding: 0 !important;
+        font-size: 1rem;
+    }
+
+    .ez-ddata , .ez-dtext {
+        text-align: center;
+        line-height: 2em;
+        margin-left: 4vw !important;
+    }
+
     .ez-img-about img{
       width: 75% !important;
       margin-left: 10vw !important;
@@ -51,6 +67,7 @@ body{
     .ez-chiron-div{
         padding: 0 !important;
         margin: 0 !important;
+        margin-bottom: 4vh !important;
     }
 
     .card-container .card{
@@ -67,17 +84,6 @@ body{
         font-size: 0.9em;
         margin-left: 3vw;
     }
-
-    .ez-dtext{
-        font-size: 1em;
-        margin-left: 2vw;
-    }
-
-    .ez-ddata{
-        font-size: 1em;
-        margin-left: 10vw;
-    }
-
     .ez-partner-img{
         margin-right: 0 !important;
         padding-right: 0 !important;

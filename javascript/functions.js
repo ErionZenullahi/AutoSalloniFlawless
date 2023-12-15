@@ -71,9 +71,9 @@ function createNavbar() {
                 <div class="footer bg-dark text-light  d-flex justify-content-between">
                   <div class="container">
                   <div class="row m-0">
-                    <div class="col">
-                      <img src="img/logo.png" class="img-fluid"  alt="Logo" width="120px" height="70px">
-                      <h3 class="h3">About</h3>
+                    <div class="col col-sm-6 col-12  ez-About">
+                      <img src="img/logo.png" class="img-fluid ez-footer-logo"  alt="Logo" width="120px" height="70px">
+                      <h3 class="h3 ez-footer-title">About</h3>
                       <p class="ez-about-footer text-secondary">
                         <em>AutoSalloni Flawless is one of the biggest Autodealerships on Ballkan, <br>
                           we sell the best pieces ever produced.<br>
@@ -82,13 +82,13 @@ function createNavbar() {
                       </p>
                     </div>
         
-                    <div class="col text-center mt-5 ez-Lista">
+                    <div class="col col-sm-4 col-12  text-center mt-5 ez-Lista">
                         <h2 class="h2 ez-ql">Quick Links</h2>
                         <div class="ez-list-col">
                         <ul class="list-group ez-ql-items">
-                          <li class="list-item"><a href="aboutus.html">About Us</a></li>
-                          <li class="list-item"><a href="contactus.html">Contact Us</a></li>
-                          <li class="list-item"><a href="signup.html">Create An Account</a></li><br>
+                          <li class="list-item my-1"><a href="aboutus.html">About Us</a></li>
+                          <li class="list-item my-1"><a href="contactus.html">Contact Us</a></li>
+                          <li class="list-item my-1"><a href="signup.html">Create An Account</a></li><br>
                         </ul>
                       </div>
                     </div>

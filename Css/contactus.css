@@ -25,6 +25,25 @@ body{
 
     .row{
         margin: 0 !important;
+        text-align: center;
+    }
+
+    textarea{
+        max-width: 200px !important;
+    }
+
+    .form-select{
+        max-width: 300px;
+    }
+
+    .ez-submit{
+        width: 70%;
+        margin-left: 10%;
+    }
+
+    .ez-footer-logo
+    {
+        margin: 0;
     }
 }
 

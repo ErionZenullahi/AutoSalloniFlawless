@@ -16,6 +16,14 @@
 }
 
 @media only screen and (max-width:567px ){
+    .ez-ad-form{
+        text-align: center;
+    }
+
+    .ez-thirdrow div{
+        margin: 2vh 0 !important;
+    }
+
     .ez-firstrow , .ez-secondrow, .ez-thirdrow{
         margin: 0 0 0 -2rem;
         width: 70%;
@@ -38,14 +46,6 @@
         margin-right: 0 !important;
         margin-left: 3vh !important;
     }
-
-    .ez-fbutton{
-        margin-left:-15%;  
-    }
-    .ez-sbutton{
-        width: 92% !important;
-    }
-
     .ez-ad-subtitle{
         font-size: .9em;
         margin-right: 10% !important;
@@ -53,6 +53,11 @@
 
     .ez-contact-problem{       
         margin-right: 10% !important;
+        text-align: center;
+    }
+
+    .ez-shp{
+        margin-right:90% !important;
     }
 
 }
