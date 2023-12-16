@@ -12,19 +12,17 @@ body{
 /* BANNER PART */
 
 .ez-make-select{
-    width:25%;
-    display: inline;
-    float: right;
+    width:100% !important;
     font-size: 16px; 
 }
-
 .ez-card-body-banner{
     background-color: rgb(77, 75, 75);
     color: white !important;
     height: 5vh;
     padding: 0.8rem;
+    align-items: center;
+    flex-direction: row;
 }
-
 /*END BANNER PART*/
 
 /* Cars ordering part */
@@ -42,18 +40,12 @@ body{
 }
 
 @media only screen and (max-width:567px){
-
-    .ez-card-title-banner{
-        margin-left: 30%;
-    }
-
     .ez-card-body-banner{
         height: 9vh;
     }
 
     .ez-make-select{
-        margin-top: 2vh;
-        width: 100%;        
+        width: 70%;        
     }
 }
 

@@ -34,10 +34,11 @@
         <div class="container p-0">
             <div class="ez-banner-card mt-5">
                 <img src="img/porscheback.jpg" alt="card-banner-img" class="card-img-top ez-banner-img">
-                <div class="ez-card-body-banner ">
-                    <div class="ez-card-title-banner d-inline px-3">Order Cars</div>
-                        <span class="px-2">
-                            <select name="" id="selectOption" class="form-select form-select-sm ez-make-select" aria-label="Small select example" onchange="filterCards()">
+                <div class="ez-card-body-banner d-flex justify-content-between">
+                    <div class="ez-card-title-banner">Order Cars</div>          
+                      <div class="ez-selection-make mx-4">
+                        <span>
+                            <select name="" id="selectOption" class="form-select form-select-sm ez-make-select " aria-label="Small select example" onchange="filterCards()">
                                 <option value="0" selected="selected">All Car Makes</option>
                                 <option value="Porsche" id="porsche">Porsche</option>
                                 <option value="Rolls Royce" id="rollsroyce">Rolls Royce</option>
@@ -46,7 +47,8 @@
                                 <option value="Bmw" id="bmw">BMW</option>
                                 <option value="Mercedes" id="mercedes">Mercedes</option>
                             </select>
-                        </span> 
+                        </span>      
+                      </div>
                 </div>
             </div>
         </div>
@@ -59,7 +61,7 @@
             <h1 class="h1 text-light text-center py-4">Cars on Sale</h1>
 
             <!-- First Card -->
-            <div class="card ez-order-card m-4"  data-options="bmw" >
+            <div class="card ez-order-card m-4"  data-options="bmw" data-options2="range-1">
                 <div class="row g-0">
                   <div class="col-md-4">
                     <img src="img/cars/bmwm5.jpg" class="img-fluid rounded order-img" alt="Bmw M5">
@@ -70,7 +72,7 @@
                       <p class="card-text">Year Of Production : 2020<br>
                                            Mileage : 165,000 km <br>
                                            Top Speed : 332 km/h <br></p><br>
-                                         Price : 157.000$<br><br>
+                                           Price : 157.000$<br><br>
                       <button type="button" class="btn btn-outline-success ez-order-btn" id="ez-order-btn" onclick="order()">Order</button>
                     </div>
                   </div>
@@ -79,7 +81,7 @@
 
               <!-- Second Card -->
 
-              <div class="card ez-order-card m-4"  data-options="porsche" >
+              <div class="card ez-order-card m-4"  data-options="porsche" data-options2="range-3">
                 <div class="row g-0">
                   <div class="col-md-4">
                     <img src="img/cars/porsche911.jpg" class="img-fluid rounded order-img" alt="Porsche 911 (Mansory)">
@@ -98,7 +100,7 @@
               </div>
 
               <!-- Third Card -->
-              <div class="card ez-order-card m-4"  data-options="bugatti" >
+              <div class="card ez-order-card m-4"  data-options="bugatti" data-options2="range-4">
                 <div class="row g-0">
                   <div class="col-md-4">
                     <img src="img/cars/chironpng.png" class="img-fluid rounded order-img" alt="Bugatti Chiron Super Sport 300+">
@@ -118,7 +120,7 @@
 
               <!-- Fourth Card -->
 
-              <div class="card ez-order-card m-4"  data-options="llamborghini" >
+              <div class="card ez-order-card m-4"  data-options="llamborghini" data-options2="range-4">
                 <div class="row g-0">
                   <div class="col-md-4">
                     <img src="img/cars/revueltomain.png" class="img-fluid rounded order-img" alt="Llamborghini Revuelto">
@@ -138,7 +140,7 @@
 
               <!-- Fifth Card -->
 
-              <div class="card ez-order-card m-4"  data-options="mercedes" >
+              <div class="card ez-order-card m-4"  data-options="mercedes" data-options2="range-4">
                 <div class="row g-0">
                   <div class="col-md-4">
                     <img src="img/cars/amgone.png" class="img-fluid rounded order-img" alt="Mercedes Gt (Amg One Edition)">

@@ -232,7 +232,6 @@ function createNavbar() {
             }
           });
         }
-
 // Remove cards at orders
         function removeCard(button) {
           // Ask the user for confirmation
