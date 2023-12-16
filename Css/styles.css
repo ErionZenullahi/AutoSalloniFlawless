@@ -79,19 +79,21 @@ abbr{
     color: var(--color-primary-1) !important;
 } 
 
-
 .dropdown-menu , .dropdown-item{
     background-color: black !important;
     color: white;
     width: 0;
 }
-
 .dropdown-menu{
     border: 0.2px solid white;
 }
 
 .dropdown-divider{
     background-color: white;
+}
+
+.dropdown-item{
+    font-size: 1rem;
 }
 
 

@@ -29,8 +29,8 @@ function createNavbar() {
                       Shopping tools
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="orderonline.html">Order Online</a></li>
-                      <li><a class="dropdown-item" href="#">Visit Us to Order</a></li>
+                      <li><a class="dropdown-item" href="orderonline.html"><i class="bi bi-wallet-fill"></i> Order Online</a></li>
+                      <li><a class="dropdown-item" href="visitus.html"><i class="bi bi-pin-map"></i> Visit Us to Order</a></li>
                     </ul>
                   </li> 
                   <!-- DROP DOWN MENU-->
@@ -46,9 +46,9 @@ function createNavbar() {
                       <i class="bi bi-person-circle" ></i>
                     </a>
                     <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="login.html">Log In <i class="bi bi-person-fill"></i></a></li>
-                      <li><a class="dropdown-item" href="accountdetails.html">Account Details</a></li>
-                      <li><a class="dropdown-item" href="orders.html">Orders <i class="bi bi-cart"></i></a></li>
+                    <li><a class="dropdown-item" href="login.html"><i class="bi bi-person-fill"></i> Log In </a></li>
+                      <li><a class="dropdown-item" href="accountdetails.html"><i class="bi bi-person-lines-fill"> </i>  Account Details</a></li>
+                      <li><a class="dropdown-item" href="orders.html"><i class="bi bi-cart"></i> Orders </a></li>
                     </ul>
                   </li> 
                   <!-- LOG IN Nav-item -->
@@ -215,7 +215,7 @@ function createNavbar() {
 // Filtering cards at orders
         function filterCards() {
           var selectedOption = document.getElementById("selectOption").value;
-          var cards = document.querySelectorAll(".order-card");
+          var cards = document.querySelectorAll(".ez-order-card");
         
           cards.forEach(function (card) {
             var cardOptions = card.getAttribute("data-options").toLowerCase().split(" ");
@@ -239,7 +239,7 @@ function createNavbar() {
           var isConfirmed = window.confirm("Are you sure you want to REMOVE this order?");
       
           if (isConfirmed) {
-            let card = button.closest(".order-card");
+            let card = button.closest(".ez-order-card");
             card.remove();
           }
         }

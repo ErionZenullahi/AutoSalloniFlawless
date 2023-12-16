@@ -1,0 +1,35 @@
+body{
+    background-color:rgb(29, 29, 29);
+    margin: var(--margin);  
+    padding: var(--padding);
+    font-size: 1.2em;
+    scroll-behavior: smooth !important;
+    offset: hidden;
+}
+/**/
+
+.ez-mailto, .ez-maps{
+    text-decoration: none;
+    color: white;
+}
+
+.ez-mailto:hover , .ez-maps:hover{
+    text-decoration: underline;
+    color: var(--color-primary-1);
+}
+
+.embed-responsive-item{
+    margin-left: 15vw;
+    margin-bottom: 5vh;
+}
+
+
+@media only screen and (max-width:567px) {
+    .embed-responsive-item{
+        width: fit-content;
+    }
+}
+
+iframe{
+    pointer-events: none !important
+}

@@ -18,7 +18,7 @@ body{
     font-size: 16px; 
 }
 
-.card-body-banner{
+.ez-card-body-banner{
     background-color: rgb(77, 75, 75);
     color: white !important;
     height: 5vh;
@@ -47,7 +47,7 @@ body{
         margin-left: 30%;
     }
 
-    .card-body-banner{
+    .ez-card-body-banner{
         height: 9vh;
     }
 
