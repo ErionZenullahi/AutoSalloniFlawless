@@ -1,2 +1,1 @@
-# Projekti-IWT-2023
-Projekti - Interneti dhe Web Teknologjite 2023
+PROJEKTI INTERNETI DHE WEB TEKNOLOGJITE
