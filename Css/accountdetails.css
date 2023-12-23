@@ -60,10 +60,27 @@
         margin-right:90% !important;
     }
 
+    .ez-thirdrow .ez-editaccount button{
+        margin-left: -15vw !important; 
+    }
 }
 
 .ez-thirdrow{
+    /* display: flex !important;
+    align-items: center !important;
+    justify-content: center; */
     margin-left: 10vw !important;
+}
+
+.ez-edit{
+    margin-right: 5vw !important;
+    margin-left: 10vw !important;
+    color: white;
+    text-decoration: none;
+}
+
+.ez-thirdrow .ez-editaccount{
+    margin-left: 8vw !important;
 }
 
 .ez-ad-heading{
@@ -100,12 +117,6 @@
 .ez-anchor:hover{
     color:rgb(219, 107, 66) !important;
 }
-
-.ez-edit{
-    color: white;
-    text-decoration: none;
-}
-
 
 .ez-shp{
     font-size: var(--ez-showpassword-size);
