@@ -266,10 +266,9 @@ function createNavbar() {
 
       // ORDER A CAR
 
-      function order(){
-       var orderBtn = document.getElementById('ez-order-btn');
-
-       if(orderBtn){
-        alert('Purchase has been made successfully! Thank you');
-       }
+      function order() {
+        confirm('Are you sure you want to make this order?');
+        if(confirm){
+          alert('Purchase has been made successfully');
+        }
       }
