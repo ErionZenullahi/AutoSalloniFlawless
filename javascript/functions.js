@@ -49,6 +49,8 @@ function createNavbar() {
                     <li><a class="dropdown-item" href="login.html"><i class="bi bi-person-fill"></i> Log In </a></li>
                       <li><a class="dropdown-item" href="accountdetails.html"><i class="bi bi-person-lines-fill"> </i>  Account Details</a></li>
                       <li><a class="dropdown-item" href="orders.html"><i class="bi bi-cart"></i> Orders </a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="policies.html">Privacy & Policies </a></li>
                     </ul>
                   </li> 
                   <!-- LOG IN Nav-item -->
@@ -251,6 +253,12 @@ function createNavbar() {
           if (statusElement.textContent.trim().toLowerCase() === 'cancelled') {
               button.setAttribute('disabled');
               return;
+          }
+
+          if(statusElement.textContent.trim().toLowerCase() === 'arrived'){
+            alert('This order has already been delivered to the client!' + ' If you want to return it contact the support');
+            button.setAttribute('disabled');
+            return;
           }
 
           var userConfirmation = confirm('Are you sure you want to cancel this order?');

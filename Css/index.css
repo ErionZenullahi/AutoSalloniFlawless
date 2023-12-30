@@ -42,6 +42,10 @@ body{
     .ez-caption h5{
         display: none;
     }
+
+    .ez-ordernow-btn{
+        margin-left: 10vw !important;
+    }
   }
 
 /* MAIN PART OF Index.html*/
