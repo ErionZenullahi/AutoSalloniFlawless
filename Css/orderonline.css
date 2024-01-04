@@ -4,7 +4,6 @@ body{
     font-size: 1.2em;
     scroll-behavior: smooth !important;
     background-color: rgb(29, 29, 29);
-    overflow-x: hidden;
 }
 
 

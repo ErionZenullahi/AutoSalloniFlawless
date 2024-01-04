@@ -5,7 +5,6 @@ body{
     padding: var(--padding);
     font-size: 1.2em;
     scroll-behavior: smooth !important;
-    overflow-x: hidden;
 }
 
 /* BODY OF INDEX.HTML*/

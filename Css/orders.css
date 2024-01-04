@@ -3,7 +3,6 @@ body {
     padding: var(--padding);
     background-color: rgb(29, 29, 29);
     color: white;
-    overflow-x: hidden;
 }
 
 
